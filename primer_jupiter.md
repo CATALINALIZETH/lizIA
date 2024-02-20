@@ -1,0 +1,5 @@
+img = cv.imread('C:\\Users\\BESTBUY\\ia\\11.jpg',0)
+print(img.shape)
+cv.imshow('Ejemplo', img)
+cv.waitKey(0)
+cv.destroyAllWindows()
